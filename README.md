@@ -62,11 +62,11 @@ _shape_predictor_68_face_landmarks.dat_ and _mmod_human_face_detector.dat_. Then
 
 By default, use mediapipe face landmarks model :
 
-    python face_swap.py --src_face images/image_1.jpg --dest_face images/image_2.jpg --output images/swap_1_2.jpg
+    python face_swap.py --src_face images/image_2.jpg --dest_face images/image_1.jpg --output images/swap_2_1.jpg
 
 Use dlib :
 
-    python face_swap.py --src_face images/image_1.jpg --dest_face images/image_2.jpg --output images/swap_1_2.jpg --landmarks dlib
+    python face_swap.py --src_face images/image_2.jpg --dest_face images/image_1.jpg --output images/swap_2_1.jpg --landmarks dlib
 
 ## Related work
 
